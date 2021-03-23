@@ -38,9 +38,9 @@ As bond angles are found (experimentally and theoretically) to vary around a sin
 
 The angle between two planes is called Dihedral.
 
-In the figure on the below the definition of the torsional angle for the proper dihedral angle potential can be seen. The torsional angle É≥ijkl is the angle between the plane going through the atoms i, j and k and the plane going through the atoms j, k and l.
+In the figure on the below the definition of the torsional angle for the proper dihedral angle potential can be seen. The torsional angle Œ¶ijkl is the angle between the plane going through the atoms i, j and k and the plane going through the atoms j, k and l.
 For each of these two planes the normal vectors can be calculated by taking the cross product of two vectors lying in this plane,
-where the directions of the vectors have to be chosen in a clever way to get the torsional angle in accordance with the IUPAC/IUB convention. The dihedral angle of two planes can be seen by looking at the planes "edge on", i.e., along their line of intersection. The dihedral angle É≥AB between two planes denoted A and B is the angle between their two normal unit vectors nA and nB: Dihedral angle is also called as face angle.
+where the directions of the vectors have to be chosen in a clever way to get the torsional angle in accordance with the IUPAC/IUB convention. The dihedral angle of two planes can be seen by looking at the planes "edge on", i.e., along their line of intersection. The dihedral angle Œ¶AB between two planes denoted A and B is the angle between their two normal unit vectors nA and nB: Dihedral angle is also called as face angle.
 
 <img src="images/cos.png">
 
@@ -56,11 +56,11 @@ For the plane going through the atoms j, k and l this normal vector n is express
 
 <img src="images/manybody5.png">
 
-For the torsional angle a similar definition as in (4) can be used. The cosine of the torsional angle É≥ijkl is expressed as
+For the torsional angle a similar definition as in (4) can be used. The cosine of the torsional angle Œ¶ijkl is expressed as
 
 <img src="images/manybody6.png">
 
-and the sine of the same angle É≥ijkl as
+and the sine of the same angle Œ¶ijkl as
 
 <img src="images/sine.png">
 
@@ -72,7 +72,7 @@ To model the rotation barriers around bonds in accordance with thermodynamic dat
 
 <img src="images/dihedral_tex.png">
 
-where Kijkl is the force constant belonging to the cosine type of potential, É≥0 the angle where the potential passes through its minimum value, and nijkl is the multiplicity, which indicates the number of minima as the bond is rotated through 3600.
+where Kijkl is the force constant belonging to the cosine type of potential, Œ¶0 the angle where the potential passes through its minimum value, and nijkl is the multiplicity, which indicates the number of minima as the bond is rotated through 3600.
 The multiplicity is a nonzero, positive integer number. However, it is not uncommon that the rotation around a bond has local and global minimums. In order to accomodate this type of behavior the potential is split in its underlying harmonic functions, each having its own force constant, multiplicity and reference angle.
 
  **Improper dihedral:**
@@ -80,12 +80,12 @@ The multiplicity is a nonzero, positive integer number. However, it is not uncom
 Improper dihedral angles are used to select the correct geometry or chirality of atoms. Consider four atoms i,j,k,l among which i is linked covalently to j,l,k. The improper angle is defined as the angle between the (il) line and the plane (ijk)
                                                                                                                        
 
-For the improper torsion the torsional angle definition is shown in the figure on the right. The angle É≥ijkl still depends on the same two planes ijk and jkl, since the atoms have been chosen in the clever way as can be seen
+For the improper torsion the torsional angle definition is shown in the figure on the right. The angle Œ¶ijkl still depends on the same two planes ijk and jkl, since the atoms have been chosen in the clever way as can be seen
 in the figure with the atom i in the center instead on one of the ends of the dihedral chain. By using this definition the same equations, can be used to compute the torsional angle, Since the improper torsion potential is mainly used to maintain planarity in a molecular structure. Hence, it only has one minimum and a harmonic potential may be used. Therefore the improper torsion functional form is given by
 
 <img src="images/model9.png">
 
-where kijkl determines the stiffness of the potential and É≥0 is the equilibrium value
+where kijkl determines the stiffness of the potential and Œ¶0 is the equilibrium value
 
 **van der Waals potential:**
 
@@ -99,10 +99,10 @@ The most common potential to model the van der Waals interactions is known as th
 
 <img src="images/lj2.jpg">
 
-here É√ij is the minimum (well depth) of the potential for the interaction between atom i and j, É–ij the collision diameter (the separation for which the energy is zero) and rij=|ri-rj| the separation distance.The r12 term, which is the repulsive term, describes Pauli repulsion at short ranges due to overlapping electron orbitals and the r6 term, which is the attractive long-range term, describes attraction at long ranges (van der Waals force, or dispersion force) The attractive part of the potential (the part which contains the power 6) has been experimentally validated. For the repulsive part different powers are suitable, however, the power 12 is used most often, since as a result the potential can be more easily computed, being the square of the attractive part. Commonly the parameters (such as É–ij and É√ij) are not given for a specific pair, but as a parameter of the atom itself. To be able to calculate the van der Waals interactions the LorentzÅ\Berthelot mixing rules are applied to determine the values for the parameters, which are then given
+here Œµij is the minimum (well depth) of the potential for the interaction between atom i and j, œÉij the collision diameter (the separation for which the energy is zero) and rij=|ri-rj| the separation distance.The r12 term, which is the repulsive term, describes Pauli repulsion at short ranges due to overlapping electron orbitals and the r6 term, which is the attractive long-range term, describes attraction at long ranges (van der Waals force, or dispersion force) The attractive part of the potential (the part which contains the power 6) has been experimentally validated. For the repulsive part different powers are suitable, however, the power 12 is used most often, since as a result the potential can be more easily computed, being the square of the attractive part. Commonly the parameters (such as œÉij and Œµij) are not given for a specific pair, but as a parameter of the atom itself. To be able to calculate the van der Waals interactions the Lorentz‚ÄîBerthelot mixing rules are applied to determine the values for the parameters, which are then given
                                                                                 <img src="images/model10.png">  
 
-where É–ii, É–jj, É√ii and É√jj are the collision diameters for the atoms i and j and the well depths for the atoms i and j respectively. On a graph of the Lennard-Jones potential then, we can see that this value gives the x-intersection of the graph. According to the Lennard-Jones potential, any value of r greater than should yield a negative bonding potential and any value of r smaller than should yield a positive bonding potential. The force exerted by the Lennard-Jones potential on, for instance, atom i, can be derived through a similar expression as equation (2), and is expressed as
+where œÉii, œÉjj, Œµii and Œµjj are the collision diameters for the atoms i and j and the well depths for the atoms i and j respectively. On a graph of the Lennard-Jones potential then, we can see that this value gives the x-intersection of the graph. According to the Lennard-Jones potential, any value of r greater than should yield a negative bonding potential and any value of r smaller than should yield a positive bonding potential. The force exerted by the Lennard-Jones potential on, for instance, atom i, can be derived through a similar expression as equation (2), and is expressed as
 
 <img src="images/force_tex.png">
 
@@ -115,7 +115,7 @@ For an uncharged atom, positive charge is located in the center, the negative ch
                                                                                                                                                                 <img src="images/spherelj.gif">                                                                                                                                                                          
 A particle in a liquid is constantly in motion, undergoing collisions and near collisions with other particles. When two uncharged particles approach one another, the electron clouds of the competing particles undergo a deformation. During the interaction, each particle does not have a symmetrical electron cloud. As a result each acquires a dipole moment. This is called an induced dipole moment. It lasts for only the short time of near approach, but during this time particles with dipoles are attracted to each other (see Fig. 3.5.4a and Fig. 3.5.4b). This attraction is called the London or Van der Waals force.
 
-<img src="images/spherelj.gif">
+<img src="images/charge.gif">
 
 Two uncharged particles approach one another. The positive charge is located in the the center, the outer ring represents the symmetrical distribution of negative charge around
                                                                                 <img src="images/dipole.gif">         
@@ -133,6 +133,6 @@ The electrostatic interaction (also known as coulomb interaction) between two at
                                                          
 <img src="images/electrostatic_potential.png">
 
-where qi and qj are the charges of atoms i and j respectively, É√0 is the permittivity of vacuum (É√0=8.8542Å~10-12 C2N-1m-2), É√R the dielectric constant (É√R=1 for a vacuum by definition) and rij is the distance between atoms i and j. Analogous to the derivation of the force with the van der Waals potential we can write for the force exerted on atom i as an effect of the coulomb potential
+where qi and qj are the charges of atoms i and j respectively, Œµ0 is the permittivity of vacuum (Œµ0=8.8542√ó10-12 C2N-1m-2), ŒµR the dielectric constant (ŒµR=1 for a vacuum by definition) and rij is the distance between atoms i and j. Analogous to the derivation of the force with the van der Waals potential we can write for the force exerted on atom i as an effect of the coulomb potential
                                                                                
 <img src="images/last.png">
