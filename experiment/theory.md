@@ -54,11 +54,13 @@ where the directions of the vectors have to be chosen in a clever way to get the
 
 <img src="images/cos.png" width="250" height="50">    
 
+ <br/>  
+ <br/>
  
-
 <img src="images/dihedral2.png">    
 
-
+<br/>  
+<br/>
  
 <img src="images/e.png" width="400" height="100">    
  
@@ -127,6 +129,7 @@ The most common potential to model the van der Waals interactions is known as th
 
 <img src="images/vanderwaal.jpg" width="250" height="50">  
 
+ <br/>  
  <br/>
 
 <img src="images/lj2.jpg" width="400" height="400">  
