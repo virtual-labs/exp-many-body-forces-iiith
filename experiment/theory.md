@@ -46,7 +46,7 @@ where the directions of the vectors have to be chosen in a clever way to get the
 
 <img src="images/dihedral2.png">  
 
-<img src="images/Screenshot-3.png">  
+<img src="images/e.png">  
  
 For the plane going through the atoms i, j and k this normal vector m is expressed as  
 
