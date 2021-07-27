@@ -112,7 +112,7 @@ For the improper torsion the torsional angle definition is shown in the figure o
 in the figure with the atom i in the center instead on one of the ends of the dihedral chain. By using this definition the same equations, can be used to compute the torsional angle, Since the improper torsion potential is mainly used to maintain planarity in a molecular structure. Hence, it only has one minimum and a harmonic potential may be used. Therefore the improper torsion functional form is given by   
 
 
-<img src="images/model9.png">  
+<img src="images/model9.png" width="250" height="50">  
 
 
 where k<sub>ijkl</sub> determines the stiffness of the potential and Φ<sub>0</sub> is the equilibrium value 
