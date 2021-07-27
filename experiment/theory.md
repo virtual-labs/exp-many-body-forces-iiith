@@ -127,7 +127,7 @@ The most common potential to model the van der Waals interactions is known as th
 
 <img src="images/vanderwaal.jpg" width="250" height="50">  
 
- 
+ <br/>
 
 <img src="images/lj2.jpg" width="400" height="400">  
 
