@@ -1,4 +1,5 @@
-There are certain parameters to be initialized and the procedure detailed here can be followed.
+There are certain parameters to be initialized and the procedure detailed here can be followed.  
+
 STEP1:Select the molecule and click on it to perform experiment.
 
 <img src="images/Exp 8-1.png">
