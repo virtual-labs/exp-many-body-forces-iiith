@@ -1,1 +1,1 @@
-To determine the inter-atomic forces on a polyatomic molecule using magnetic tweezers.
+- To determine the inter-atomic forces on a polyatomic molecule using magnetic tweezers.
